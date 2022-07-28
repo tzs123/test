@@ -1,0 +1,13 @@
+INFO     airtest.core.api:cv.py:59 Try finding: Template(news.png)
+DEBUG    airtest.core.api:cv.py:189 try match with SURFMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.23 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (567, 972), 'rectangle': ((535, 935), (535, 1009), (600, 1009), (600, 935)), 'confidence': 0.439278781414032}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.06 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with SURFMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.25 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (567, 972), 'rectangle': ((535, 935), (535, 1009), (600, 1009), (600, 935)), 'confidence': 0.439278781414032}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.06 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None

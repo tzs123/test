@@ -1,0 +1,16 @@
+INFO     airtest.core.api:cv.py:59 Try finding: Template(news.png)
+DEBUG    airtest.core.api:cv.py:189 try match with SURFMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SURF] threshold=0.7, result={'result': (43, 163), 'rectangle': [(11, 126), (11, 200), (76, 200), (76, 126)], 'confidence': 1.0}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.25 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (43, 163), 'rectangle': [(11, 126), (11, 200), (76, 200), (76, 126)], 'confidence': 1.0, 'time': 0.2453444004058838}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(internet.png)
+DEBUG    airtest.core.api:cv.py:189 try match with SURFMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.16 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1837, 20), 'rectangle': ((1792, 1), (1792, 40), (1883, 40), (1883, 1)), 'confidence': 0.3782822787761688}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.07 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with SURFMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SURF] threshold=0.7, result={'result': (985, 150), 'rectangle': [(940, 131), (940, 169), (1030, 169), (1030, 131)], 'confidence': 0.9194150567054749}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.40 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (985, 150), 'rectangle': [(940, 131), (940, 169), (1030, 169), (1030, 131)], 'confidence': 0.9194150567054749, 'time': 0.39690661430358887}

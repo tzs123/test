@@ -1,0 +1,13 @@
+INFO     airtest.core.api:cv.py:59 Try finding: Template(qq音乐.png)
+DEBUG    airtest.core.api:cv.py:189 try match with SURFMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.17 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (299, 800), 'rectangle': ((254, 748), (254, 852), (345, 852), (345, 748)), 'confidence': 0.323176771402359}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.07 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with SURFMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.23 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (298, 800), 'rectangle': ((253, 748), (253, 852), (344, 852), (344, 748)), 'confidence': 0.32182949781417847}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.07 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
